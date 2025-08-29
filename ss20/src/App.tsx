@@ -10,7 +10,9 @@ import B5 from './assets/components/B5'
 import B6 from './assets/components/B6'
 import B7 from './assets/components/B7'
 import B8 from './assets/components/B8'
-import { HiBattery100 } from 'react-icons/hi2'
+import B9 from './assets/components/B9'
+import B10 from './assets/components/B10'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -45,6 +47,8 @@ function App() {
       <B6></B6>
       <B7></B7>
       <B8></B8>
+      <B9></B9>
+      <B10></B10>
     </>
   )
 }
